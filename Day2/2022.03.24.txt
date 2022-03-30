@@ -1,0 +1,95 @@
+2022.03.24 목
+
+개별적으로 받을때는 상관없지만
+합계 평균을 낼때는 list를 붙여야함
+
+formatted string: Python 3.6 이상에서는
+사용가능, 매우 편함
+
+print(f'{year}-{month:02d}-{day}')
+
+2022-3-24
+
+print(year,'-',month,'-',day, sep='')
+
+format - C, Java, JS, ...
+정수: %d		두글자로 찍고 싶으면 %2d(공백)3
+		%02 03
+실수: %f		%4.1f	3.4
+문자열: %s	%4s	time
+
+Java에서는 template literal이라고 함: `     `
+formatted string: f'   ', f"   ", f'''  ''',f"""   """
+
+JAVA, JSP
+
+JavaScript NodeJS, ReactJS에서는 formatted string사용가능
+
+datetime이면
+now = datetime.datetime.now()
+
+
+from pytz
+
+array : numpy에서 제공하는 것
+
+반복문을 시작하기 전에 빈 리스트를 만듦
+반복문 리스트 엘리먼트(요소)를 추가
+
+end number -(증가폭 부호)*1
+
+0 - (-)1 ==> 1
+
+*숙지하기*
+[   ]	리스트(list), numpy array
+
+(   )	튜플(tuple)
+
+{   }	딕셔너리(dictionary)
+	세트(set)
+
+튜플하고 반복문은 궁합이 맞지 않음
+----------------
+1단계 - 초딩수준
+
+2단계 - 조건문, 반복문, 함수, 기본적인 문제해결
+
+3단계 - 파이썬 다운(스러운) 코드(익명함수, 리스트 표현식, ...), 객체 사용, 복잡한 문제 해결
+
+4단계 - 객체 지향 코드
+------------------------
+오전수업의 하이라이트 Slicing
+
+자료 수집: crawling
+
+string과 관련된 작업이 매우 많음
+
+자연어 처리
+
+슬라이스는 굉장히 중요함
+---------------------------------
+파이썬에서는 딕셔너리
+자바에서는 map
+
+자료구조, DB
+
+가장 기본적인 오퍼레이팅 4가지
+C	create 생성할 수 있나
+R	read, retrieve 읽을 수 있나
+U	update 갱신할 수 있나
+D	delete 삭제할 수 있나
+
+
+--------------------
+colab으로 작업한 구글 드라이브에 저장됨
+content 밑에 drive에 들어가면 
+Mydrive에 Colab Notebooks
+
+
+
+
+
+
+
+
+

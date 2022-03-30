@@ -1,0 +1,28 @@
+text file - 읽을 수 있는 파일(글자가 눈에 보임, txt, csv)
+
+binary file - 글자가 안보이는 파일(사진, 워드/엑셀, 게임, 응용 프로그램, ...)
+
+경로지정
+1. 프로그램 내에서는 back slash(\) 대신에 slash(/)를 쓸 것
+2. 경로명에 공백을 두지 말 것
+3. 프로그램용이라면 디렉토리 이름에 한글을 쓰지 말 것
+--------------------------------
+cmd 창 띄우기
+conda activate base
+
+1. 최선 - 가상환경 base에만 설치
+
+conda install -c anaconda joblib
+
+conda install -c conda-forge ...
+
+2. 차선 -conda 설치 불가, 전체 설치
+
+pip install joblib
+
+------------------------------
+char *s;
+
+s= &"abc"
+
+*s ---> "abc"

@@ -1,0 +1,70 @@
+2022.03.25
+
+조건문을 쓸 때 바로 코드를 입력하지말고
+먼저 손으로 코드를 써보자 이런것들을 psendo-code(의사코드)
+
+bool로 표현되는 것이 조건문
+if조건문 뒤에는 반드시 : 을 붙인다.
+
+비교식, 논리식
+
+값, 식 --> bool로 변경
+
+코드 생략은 pass 입력
+
+Java에서
+result = x % 2 == 0 ? "even" : "odd" ;
+
+JAVA
+for (int i = 0; i < 10: i++) {
+     print("%s %d", "Hello World", i);
+}
+
+fruits = ['apple', 'banana', 'cherry']
+for (i = 0; i < 3; i++){
+    printf("%s", fruits[i])
+}
+
+for i in range(10):
+    print('Hello World', i)
+
+for fruit in fruits:
+    print(frutit)
+
+--------------------
+for
+
+
+while
+
+
+until(파이썬 제공x, JAVA 제공o)
+
+반복횟수가 정해져 있으면 for
+	 정해져 있지 않으면 while
+
+
+continue는 다시 루프로 되돌아가는 것
+break는 루프를 탈출하는 것
+
+i = 1
+for k in range(1):
+     print('*', end=' ')		*
+print()
+i = 2
+or k in range(2):
+     print('*', end=' ')		**
+print()
+i = 3
+or k in range(3):
+     print('*', end=' ')		***
+print()
+i = 4
+or k in range(4):
+     print('*', end=' ')		****
+print()
+i = 5
+or k in range(5):
+     print('*', end=' ')		*****
+print()
+
