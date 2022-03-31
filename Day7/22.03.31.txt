@@ -73,9 +73,23 @@
 - method overriding(overloading)
 
 
+심사문제 34.6
 
+연습문제
+1. Calculator
+	add, sub, mul, div 메소드 구현
+	단, 0으로 나누지 못하게 할 것
 
+2. Account 클래스 만들기
+### 속성
+ano: 문자열 6글자, '123456'
+owner: 문자열
+balance: 잔액, 비공개 속성
 
+### Method
+deposit(amount) 잔액이 1000만원 이상이면 입금할 수 없음
+withdraw(amount) 잔액이 0원 미만이면 출금할 수 없음
+출력 가능하게(__str__)
 
 
 
